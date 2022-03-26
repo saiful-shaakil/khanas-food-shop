@@ -6,8 +6,13 @@ const Food = (props) => {
   return (
     <div className="each-food">
       <img className="image" src={photo} alt="" />
-      <h2>{name}</h2>
-      <p>Price: {price}</p>
+      <div className="foos-info">
+        <h2>{name}</h2>
+        <p>Price: {price}</p>
+      </div>
+      <button onClick={() => props.buttonHandler(props.food)}>
+        Add to Cart
+      </button>
     </div>
   );
 };
