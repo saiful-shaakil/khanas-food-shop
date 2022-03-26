@@ -1,0 +1,18 @@
+.header {
+  background-color: #3e515e;
+  height: 80px;
+  padding: 0 140px 0 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header h1 {
+  font-size: 40px;
+  color: white;
+}
+.header a {
+  color: #ffffff;
+  font-size: 17px;
+  margin-left: 36px;
+  text-decoration: none;
+}

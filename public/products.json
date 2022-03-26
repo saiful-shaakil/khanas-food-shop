@@ -1,0 +1,56 @@
+[
+  {
+    "id": "1",
+    "name": "Beef Brisket",
+    "price": 50,
+    "photo": "./photos/beef.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Burger",
+    "price": 90,
+    "photo": "./photos/burger.jpg"
+  },
+  {
+    "id": "3",
+    "name": "BBQ Chicken",
+    "price": 70,
+    "photo": "./photos/chicken.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Egg Curry",
+    "price": 40,
+    "photo": "./photos/egg.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Fish Curry",
+    "price": 40,
+    "photo": "./photos/fish.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Pasta with Tomatoes",
+    "price": 90,
+    "photo": "./photos/pasta.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Pizza",
+    "price": 110,
+    "photo": "./photos/pizza.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Vegetables",
+    "price": 25,
+    "photo": "./photos/vegetables.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Coffee",
+    "price": 30,
+    "photo": "./photos/coffee.jpg"
+  }
+]
