@@ -8,7 +8,7 @@ const Food = (props) => {
       <img className="image" src={photo} alt="" />
       <div className="foos-info">
         <h2>{name}</h2>
-        <p>Price: {price}</p>
+        <p>Price: ${price}</p>
       </div>
       <button onClick={() => props.buttonHandler(props.food)}>
         Add to Cart

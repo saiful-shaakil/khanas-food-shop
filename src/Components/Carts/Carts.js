@@ -1,14 +1,15 @@
 import React from "react";
-import "./Cart.css";
+import "./Carts.css";
 
-const Cart = () => {
+const Carts = () => {
   return (
     <div className="cart">
       <h2>Selected Products</h2>
+      <div></div>
       <button>Chosse 1 For Me</button> <br />
       <button>Choose Again</button>
     </div>
   );
 };
 
-export default Cart;
+export default Carts;
