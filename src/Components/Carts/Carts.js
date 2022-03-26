@@ -1,11 +1,43 @@
 import React from "react";
 import "./Carts.css";
 
-const Carts = () => {
+const Carts = ({ cart }) => {
+  console.log(cart);
+  let name, name1, name2, name3;
+  if (cart.length === 1) {
+    name = cart[0].name;
+  }
+  if (cart.length === 2) {
+    name = cart[0].name;
+    name1 = cart[1].name;
+  }
+  if (cart.length === 3) {
+    name = cart[0].name;
+    name1 = cart[1].name;
+    name2 = cart[2].name;
+  }
+  if (cart.length === 4) {
+    name = cart[0].name;
+    name1 = cart[1].name;
+    name2 = cart[2].name;
+    name3 = cart[3].name;
+  }
+  if (cart.length > 4) {
+    name = cart[0].name;
+    name1 = cart[1].name;
+    name2 = cart[2].name;
+    name3 = cart[3].name;
+    alert("You've already added 4 items");
+  }
   return (
     <div className="cart">
       <h2>Selected Products</h2>
-      <div></div>
+      <div>
+        {name} <br />
+        {name1} <br />
+        {name2} <br />
+        {name3}
+      </div>
       <button>Chosse 1 For Me</button> <br />
       <button>Choose Again</button>
     </div>
