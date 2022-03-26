@@ -1,0 +1,10 @@
+.foods-container {
+  display: flex;
+}
+.foods {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 50px;
+  margin-left: 100px;
+}
