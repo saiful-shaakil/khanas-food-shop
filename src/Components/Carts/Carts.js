@@ -32,6 +32,8 @@ const Carts = ({ cart }) => {
 
     alert("You've already added 4 items");
   }
+
+  //onclick handler to choose random things
   const chooseOne = () => {
     if (randomItems.length < 4) {
       alert("You've to added 4 items");

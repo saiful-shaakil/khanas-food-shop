@@ -16,3 +16,10 @@
   margin-left: 36px;
   text-decoration: none;
 }
+@media only screen and (max-width: 600px) {
+  .header {
+    flex-direction: column;
+    height: 210px;
+    justify-content: center;
+  }
+}

@@ -11,13 +11,15 @@ const Foods = () => {
       .then((res) => res.json())
       .then((data) => setFoods(data));
   }, []);
+
+  //Onclick handler to add food in cart
   const addToCart = (food) => {
     let newCart = [];
-    const exists = cart.find((p) => p.id === food.id);
+    const exists = cart.find((foundedFood) => foundedFood.id === food.id);
     if (!exists) {
       newCart = [...cart, food];
     } else {
-      const rest = cart.filter((t) => t.id !== food.id);
+      const rest = cart.filter((foundedFood) => foundedFood.id !== food.id);
       newCart = [...cart, rest];
     }
     setCarts(newCart);
